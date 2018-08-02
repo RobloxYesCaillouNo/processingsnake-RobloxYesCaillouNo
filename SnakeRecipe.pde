@@ -23,6 +23,7 @@ class Segment {
 
 
 // 7. Create and initialize a variable to hold how many pieces of food the snake has eaten.
+// give it a value of 1 to start.
 
 
 
@@ -63,7 +64,7 @@ void drawFood() {
 }
 
 
-//14. Draw the snake head
+//14. Draw the snake head (use a 10 by 10 rectangle)
 
 void drawSnake() {
 
@@ -76,7 +77,7 @@ void drawSnake() {
 
 void move() {
 
-  // 16. Create a switch statement using your direction variable. Depending on the direction, add a new segment to your snake.
+  // 16. Using a switch statement, make your snake move by 10 pixels in the correct direction.
   //This is an incomplete switch statement:
   /*
   switch(dir) {
@@ -137,7 +138,7 @@ void collision() {
 //  1. Create and initialize an ArrayList of Segments. (This will be your snake tail!)
 
 
-// 2. Complete the missing parts of the manageTail method below.
+// 2. Complete the missing parts of the manageTail method below and call it in the draw method.
 
 void manageTail() {
 
@@ -145,7 +146,7 @@ void manageTail() {
 
   // Add a new Segment to your ArrayList that has the same X and Y as the head of your snake.
 
-  // While the snake size is greater than your food, remove the first Segment in your snake.
+  // While the tail size is greater than your food, remove the first Segment in your tail.
 }
 
 void drawTail() {
@@ -159,7 +160,7 @@ void checkTailCollision() {
 
   // If your head has the same location as one of your segments...
 
-  // Set food back to 1.
+  // reset your food variable
 
   //Call this method at the begining of your manageTail method.
 }
