@@ -18,7 +18,7 @@ class Segment {
 
 
 
-// 6. Create and initialize String to hold the direction of your snake e.g. "up"
+// 6. Create and initialize a String to hold the direction of your snake e.g. "up"
 
 
 
