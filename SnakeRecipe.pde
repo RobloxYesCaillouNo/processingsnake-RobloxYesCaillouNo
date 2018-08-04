@@ -54,7 +54,7 @@ void draw() {
   background(0);
 
 
-  //12. Call the drawFood, drawSnake, move, and collision methods.
+  //12. Call the drawFood, drawSnake, move, manageTail and collision methods.
 }
 
 
@@ -77,7 +77,7 @@ void drawSnake() {
 
 void move() {
 
-  // 16. Using a switch statement, make your snake move by 10 pixels in the correct direction.
+  // 16. Using a switch statement, make your snake head move by 10 pixels in the correct direction.
   //This is an incomplete switch statement:
   /*
   switch(dir) {
@@ -97,7 +97,7 @@ void move() {
   */
 
 
-  // 17. Call the checkBoundaries method to make sure the snake doesn't go off the screen.
+  // 17. Call the checkBoundaries method to make sure the snake head doesn't go off the screen.
 }
 
 
@@ -108,7 +108,7 @@ void keyPressed() {
 
 
 
-// 19. check if your head is out of bounds (teleport your snake to the other side).
+// 19. check if your head is out of bounds (teleport your snake head to the other side).
 
 void checkBoundaries() {
 }
@@ -131,7 +131,7 @@ void collision() {
 
 /**
  
- ** Part 2: making the tail
+ ** Part 2: making the tail (the rest of the snake)
  
  **/
 
