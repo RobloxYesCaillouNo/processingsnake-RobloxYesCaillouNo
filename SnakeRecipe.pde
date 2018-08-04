@@ -54,7 +54,7 @@ void draw() {
   background(0);
 
 
-  //12. Call the drawFood, drawSnake, move, manageTail and collision methods.
+  //12. Call the manageTail, drawFood, drawSnake, move, and collision methods.
 }
 
 
