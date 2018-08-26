@@ -1,7 +1,7 @@
 
 // 1. Follow the recipe instructions inside the Segment class.
 
-// This class will be used to represent each part of the moving snake.
+// The Segment class will be used to represent each part of the moving snake.
 
 class Segment {
 
@@ -146,7 +146,9 @@ void manageTail() {
 
   // Add a new Segment to your ArrayList that has the same X and Y as the head of your snake.
 
-  // While the tail size is greater than your food, remove the first Segment in your tail.
+  // To keep your tail the right length:
+  // while the tail size is greater than the number of food pieces eaten, remove the first Segment in your tail.
+
 }
 
 void drawTail() {
@@ -162,5 +164,5 @@ void checkTailCollision() {
 
   // reset your food variable
 
-  //Call this method at the begining of your manageTail method.
+  //Call this method at the beginning of your manageTail method.
 }
